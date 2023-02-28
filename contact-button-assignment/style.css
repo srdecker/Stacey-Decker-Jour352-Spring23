@@ -1,0 +1,30 @@
+body 
+{
+    background-color:#FAF4D3;
+    text-align:center;
+}
+
+button {
+    background-color:#0C1618;
+    color:#D1AC00;
+    font-family: 'Inter', sans-serif;
+    text-transform:uppercase;
+    width:200px;
+    padding:10px;
+    margin:50px 0px 0px 0px;
+    border:none;
+    border-radius:10px;
+}
+
+button:hover {
+    background-color:#004643;
+}
+
+h1 {
+    font-family: 'Syne', sans-serif;
+    font-weight:normal;
+}
+
+h2 {
+    font-family: 'Inter', sans-serif;
+}
