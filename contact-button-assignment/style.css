@@ -26,8 +26,7 @@ button {
 }
 
 button:hover {
-    background-color:#004643;
-    border-bottom:1px solid white;
+    background-color:#0C1618;
 }
 
 h1 {
@@ -40,4 +39,5 @@ h1 {
 h2 {
     font-family: 'Syne', sans-serif;
     color:#0C1618;
+    font-weight:lighter;
 }
