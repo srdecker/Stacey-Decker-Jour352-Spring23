@@ -1,8 +1,11 @@
-.topper {
-    background-color:bisque;
+h1 {
+    font-size:20px;
 }
 
-button {
-    display:block;
-    margin:auto;
+.dark {
+    background-color:black;
+}
+
+#topper {
+    color:aliceblue;
 }
