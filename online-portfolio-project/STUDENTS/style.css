@@ -1,0 +1,60 @@
+h1 {
+    
+font-size:100px;
+padding:100px 10px 0px 0px;
+color:white
+}
+h2{
+    font-size:50px;
+    color:white;
+}
+h3{
+    font-size:40px;
+    text-align: left;
+    color:white
+}
+h4{
+    font-size:35px;
+    text-align: left;
+    color:white
+}
+h5{
+    font-size: 30px;
+    text-align: left;
+    color:white;
+}
+p{
+    font-size:30px;
+    text-align: left;
+    color:white;
+}
+ul{
+    font-size:30px;
+    color:white;
+}
+body{
+    background-color: #374A67;
+}
+.headshot {
+    width:300px;
+    padding:0px;
+    margin:20px 0px 20px 40px;
+    border-radius: 500px;
+}
+#button {
+    background-color:#CB9CF2;
+    border:0px;
+    border-radius: 10px;
+    padding:10px 30px 10px 30px;
+    text-transform:uppercase;
+    margin:10px;
+    text-align: right
+}
+
+#button a {
+    color:white;
+    text-decoration: none;
+}
+.topper{
+    text-align: center;
+}
