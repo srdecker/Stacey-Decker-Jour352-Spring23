@@ -1,3 +1,6 @@
+@media{
+    
+
 h1 {
     
 font-size:100px;
@@ -34,6 +37,7 @@ ul{
 }
 body{
     background-color: #374A67;
+    font-family: "playfair display";
 }
 .headshot {
     width:300px;
@@ -49,6 +53,7 @@ body{
     text-transform:uppercase;
     margin:10px;
     text-align: right
+    
 }
 
 #button a {
@@ -57,4 +62,57 @@ body{
 }
 .topper{
     text-align: center;
+}
+.footer{
+  text-align: left;
+    color: white;
+    font-size: 20px;
+    
+}
+.nav a{
+    color: white;
+    
+}
+.nav a:hover{
+    color:#CB9CF2 
+}
+}
+@media (min-width:768px){
+   p{
+    font-size:20px;
+} 
+    li{
+    font-size: 20px
+    }  
+
+}
+
+@media (min-width: 576px) {
+   
+    h1 {
+         font-size:50px;
+    }
+    p {
+        font-size: 20px;
+    }
+}
+
+@media {
+    
+    h1 {
+        font-size:50px;
+       
+}
+    h3{
+        font-size: 50px;
+    }
+    h5{
+        font-size:30px;
+    }
+    p{
+        font-size: 25px;
+    }
+    li{
+        font-size: 25px;
+    }
 }
