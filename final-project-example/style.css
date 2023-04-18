@@ -1,0 +1,203 @@
+@media {
+    .leadimage {
+        width:100%;
+    }
+    
+    .caption {
+        font-family:'Muli', Sans-Serif;
+        font-size:10px;
+        font-weight:lighter; 
+        color:darkgrey;
+    }
+    
+    h1 {
+        font-family: 'Merriweather', Serif;
+        font-size: 16px;
+        font-weight:bolder;
+        color:black;
+        text-align:center;
+    }
+    
+    h2 {
+        font-family:'Muli', Sans-Serif;
+        font-size:16px;
+        font-weight:bold;
+        color:#741476;
+        text-align:center;
+        text-transform:capitalize;
+    }
+    
+    h3 {
+        font-family:'Muli', Sans-Serif;
+        font-size:16px;
+        font-weight:normal;
+        color:darkgrey;
+        text-align:center;
+    }
+    
+    h4{
+        font-family:'Merriweather', Serif;
+        font-size:16px;
+        font-weight:bold;
+        color:#741476;
+        text-align:left;  
+    }
+    
+    .bodytext {
+        font-family:'Muli', Sans-Serif;
+        font-size:14px;
+        font-weight:normal;
+        color:black;
+    }
+    
+    .quoteline-top {
+        width:100%;
+        color:#741476;
+        align-content:center;
+    }
+    
+    .quotetext {
+        font-family:'Merriweather', Serif;
+        font-size:16px;
+        font-weight:bolder;
+        color:black;
+        text-align:center;
+    }
+    
+    .quoteattribution{
+        font-family:'Merriweather', Serif;
+        font-size:16px;
+        font-weight:bold;
+        color:#741476;
+        text-align:center;
+    }
+    
+     .quoteline-bottom {
+        width:100%;
+        color:#741476;
+        align-content:center;
+    }
+    
+     .quotemark {
+        font-size:100px;
+        float:left;
+        color:#741476;
+        padding: 0px 10px 0px 0px;
+        line-height:.6;
+    }
+    
+     .bodyimage {
+        width:100%;
+        align-content:center;
+    }
+}
+
+@media (min-width: 576px) {
+    .caption {
+        font-size:10px;
+    }
+    
+    h1 {
+        font-size: 30px;
+    }
+    
+    h2 {
+        font-size:20px;
+    }
+    
+    h3 {
+        font-size:20px;
+    }
+    
+    h4{
+        font-size:20px;  
+    }
+    
+    .bodytext {
+        font-size:15px;
+    }
+    
+    
+    .quotetext {
+        font-size:20px;
+    }
+    
+    .quoteattribution{
+        font-size:20px;
+    }
+    
+     .quotemark {
+        line-height:.8;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .caption {
+        font-size:12px;
+    }
+    
+    h1 {
+        font-size: 40px;
+    }
+    
+    h2 {
+        font-size:30px;
+    }
+    
+    h3 {
+        font-size:20px;
+    }
+    
+    h4{
+        font-size:20px;  
+    }
+    
+    .bodytext {
+        font-size:16px;
+    }s
+    
+    .quotetext {
+        font-size:20px;
+    }
+    
+    .quoteattribution{
+        font-size:20px;
+    }
+    
+}
+
+@media (min-width: 1200px) {
+     .caption {
+        font-size:14px;
+    }
+    
+    h1 {
+        font-size: 45px;
+    }
+    
+    h2 {
+        font-size:35px;
+    }
+    
+    h3 {
+        font-size:25px;
+    }
+    
+    h4{
+        font-size:25px;  
+    }
+    
+    .bodytext {
+        font-size:20px;
+    }s
+    
+    .quotetext {
+        font-size:25px;
+    }
+    
+    .quoteattribution{
+        font-size:25px;
+    }
+    
+}
