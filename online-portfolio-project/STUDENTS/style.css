@@ -1,118 +1,47 @@
-@media{
-    
-
-h1 {
-    
-font-size:100px;
-padding:100px 10px 0px 0px;
-color:white
-}
-h2{
-    font-size:50px;
-    color:white;
-}
-h3{
-    font-size:40px;
-    text-align: left;
-    color:white
-}
-h4{
-    font-size:35px;
-    text-align: left;
-    color:white
-}
-h5{
-    font-size: 30px;
-    text-align: left;
-    color:white;
-}
-p{
-    font-size:30px;
-    text-align: left;
-    color:white;
-}
-ul{
-    font-size:30px;
-    color:white;
-}
-body{
-    background-color: #374A67;
-    font-family: "playfair display";
-}
-.headshot {
-    width:300px;
-    padding:0px;
-    margin:20px 0px 20px 40px;
-    border-radius: 500px;
-}
-#button {
-    background-color:#CB9CF2;
-    border:0px;
-    border-radius: 10px;
-    padding:10px 30px 10px 30px;
-    text-transform:uppercase;
-    margin:10px;
-    text-align: right
-    
-}
-
-#button a {
-    color:white;
-    text-decoration: none;
-}
-.topper{
-    text-align: center;
-}
-.footer{
-  text-align: left;
-    color: white;
-    font-size: 20px;
-    
-}
-.nav a{
-    color: white;
-    
-}
-.nav a:hover{
-    color:#CB9CF2 
-}
-}
-@media (min-width:768px){
-   p{
-    font-size:20px;
-} 
-    li{
-    font-size: 20px
-    }  
-
-}
-
-@media (min-width: 576px) {
-   
-    h1 {
-         font-size:50px;
-    }
-    p {
-        font-size: 20px;
-    }
-}
-
 @media {
+.header {
+  background-color: #bacdb0;  
+  font-family: 'BIZ UDMincho', serif;
+  color: #475b63;
     
-    h1 {
-        font-size:50px;
-       
 }
-    h3{
-        font-size: 50px;
-    }
-    h5{
-        font-size:30px;
-    }
-    p{
-        font-size: 25px;
-    }
-    li{
-        font-size: 25px;
-    }
+
+#title {
+    font-size:60px;
+    font-weight: bold;
+    margin: 0px 0px 10px 100px
 }
+
+#profession {
+    font-size:35px;
+    margin: 0px 0px 10px 110px
+}
+
+
+#headshot {
+    border-radius: 50%;
+    border: 4px solid #f3e8ee;
+    width: 200px;
+    height:200px;
+    float: right;
+}
+
+
+.experience {
+    font-size:15px;
+    font-family: serif;
+    margin:0px 0px 0px 15px
+}
+ 
+.educationskills {
+    font-family: serif;
+    font-size:15px;
+}
+
+#education {
+    margin-right: 10px
+}
+
+    @media (min-width: 576px){
+        
+    }
