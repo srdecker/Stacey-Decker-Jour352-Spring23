@@ -1,0 +1,34 @@
+@media {
+    
+    .lead {
+        width:100%;
+    }
+    
+    .topper {
+        background-image:url(leadphoto.webp);
+        background-size:auto;
+        background-position:30% 10%;
+        
+    }
+    
+    h1 {
+        padding:100px 0px 400px 30px;
+    }
+    
+}
+
+@media (min-width:576px) {
+    
+}
+
+
+
+
+
+@media (min-width:992px) {
+    
+}
+
+@media (min-width:1200px) {
+    
+}
