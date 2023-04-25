@@ -1,0 +1,28 @@
+@media {
+    
+
+.leadimage {
+padding: 0px 100px 0px 100px;
+    width:100%;
+    }
+
+.topper {
+    background-image:url(leadimage.jpg);
+    background-size: cover;
+    background-position: 70% 30%;
+    text-align: center;
+    height:300px;
+}
+
+h1 {
+    padding:0px 100px 400px 100px;
+    text-align:left;
+}
+    
+    }
+
+@media (min-width:576px) {
+    h1 {
+    padding:0px 100px 200px 100px;
+}
+}
