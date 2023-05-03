@@ -1,18 +1,28 @@
 @media {
     
-    .lead {
-        width:100%;
-    }
+.parallax {
+  /* The image used */
+  background-image: url("leadphoto2.png");
+
+  /* Set a specific height */
+  min-height: 100vh; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
     
-    .topper {
-        background-image:url(leadphoto.webp);
-        background-size:auto;
-        background-position:30% 10%;
-        
+.space {
+        height:80vh;
     }
-    
-    h1 {
-        padding:100px 0px 400px 30px;
+
+h1 {
+    padding:0px 10px 0px 10px;
+    background: rgba(0, 0, 0, 0.35);
+    height:20vh;
+    color:white;
     }
     
 }
@@ -20,9 +30,6 @@
 @media (min-width:576px) {
     
 }
-
-
-
 
 
 @media (min-width:992px) {
