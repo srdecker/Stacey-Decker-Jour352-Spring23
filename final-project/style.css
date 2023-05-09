@@ -87,15 +87,15 @@ h1 {
     }
     
 .caption {
-        font-size:13px;
-        color:#B0B2B8;
-        padding:7px 25% 0px 7px;
-        font-family: 'DM Sans', sans-serif;
+    font-size:13px;
+    color:#B0B2B8;
+    padding:7px 25% 0px 7px;
+    font-family: 'DM Sans', sans-serif;
 
     }
     
 #content {
-    width:50%;
+    width:100%;
     font-family: 'Forum', sans-serif;
     color:#ffffff;
     font-size:20px;
@@ -103,19 +103,57 @@ h1 {
     }
     
 body{
-        background-color:#385F71;
+    background-color:#385F71;
+    }
+
+.pullquote {
+    padding:40px 40px 40px 40px;
+    margin:10px 0px 10px 10px;
+    border-left:3px solid #F5F0F6;
     }
     
+.quotemark {
+    font-size:120px;
+    float:left;
+    line-height: 10px;
+    padding:40px 10px 0px 0px;
+    font-family:Georgia;
+    }
+
+.quote {
+    color:#D7B377;
+    font-size:30px;
+    }
+
+.attribution {
+    color:#D7B377;
+    font-weight:500;
+    }
+
 }
+
+
 
 @media (min-width:576px) {
     
+#content {
+    width:80%;
+    }
+    
+    
 }
+
 
 
 @media (min-width:992px) {
     
+#content {
+    width:50%;
+    }
+    
 }
+
+
 
 @media (min-width:1200px) {
     
