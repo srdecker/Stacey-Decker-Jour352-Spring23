@@ -1,8 +1,26 @@
 @media {
     
+#topper {
+      padding:0px;  
+    }
+    
 .parallax {
   /* The image used */
-  background-image: url("leadphoto2.png");
+  background-image: url("1people-on-salt.jpg");
+
+  /* Set a specific height */
+  min-height: 100vh; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2 {
+  /* The image used */
+  background-image: url("2shoreline.jpg");
 
   /* Set a specific height */
   min-height: 100vh; 
@@ -14,13 +32,78 @@
   background-size: cover;
 }
     
+.parallax3 {
+  /* The image used */
+  background-image: url("3man-reading-newspaper.jpg");
+
+  /* Set a specific height */
+  min-height: 100vh; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: 20% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+    
+.parallax4 {
+  /* The image used */
+  background-image: url("4people-on-beach.jpg");
+
+  /* Set a specific height */
+  min-height: 100vh; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+    
+.parallax5 {
+  /* The image used */
+  background-image: url("5salt-formations.jpg");
+
+  /* Set a specific height */
+  min-height: 100vh; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: 40% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+    
 .space {
-        height:80vh;
+        height:82%;
     }
 
 h1 {
-    background: rgba(0, 0, 0, 0.35);
-    height:20vh;
+    height:18%;
+    font-family: 'Forum', sans-serif;
+    padding:20px 20px 0px 20px;
+    font-size:55px;
+    color:#385F71;
+    }
+    
+.caption {
+        font-size:13px;
+        color:#B0B2B8;
+        padding:7px 25% 0px 7px;
+        font-family: 'DM Sans', sans-serif;
+
+    }
+    
+#content {
+    width:50%;
+    font-family: 'Forum', sans-serif;
+    color:#ffffff;
+    font-size:20px;
+    padding:80px 0px 0px 0px;
+    }
+    
+body{
+        background-color:#385F71;
     }
     
 }
