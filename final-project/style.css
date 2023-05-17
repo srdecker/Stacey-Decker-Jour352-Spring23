@@ -1,160 +1,118 @@
 @media {
-    
-#topper {
-      padding:0px;  
+     #topper {
+         padding:0px;
     }
-    
-.parallax {
-  /* The image used */
-  background-image: url("1people-on-salt.jpg");
-
-  /* Set a specific height */
-  min-height: 100vh; 
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+     .parallax {
+        /* The image used */
+         background-image: url("1people-on-salt.jpg");
+        /* Set a specific height */
+         min-height: 100vh;
+        /* Create the parallax scrolling effect */
+         background-attachment: fixed;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+    }
+     .parallax2 {
+        /* The image used */
+         background-image: url("2shoreline.jpg");
+        /* Set a specific height */
+         min-height: 100vh;
+        /* Create the parallax scrolling effect */
+         background-attachment: fixed;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+    }
+     .parallax3 {
+        /* The image used */
+         background-image: url("3man-reading-newspaper.jpg");
+        /* Set a specific height */
+         min-height: 100vh;
+        /* Create the parallax scrolling effect */
+         background-attachment: fixed;
+         background-position: 20% 50%;
+         background-repeat: no-repeat;
+         background-size: cover;
+    }
+     .parallax4 {
+        /* The image used */
+         background-image: url("4people-on-beach.jpg");
+        /* Set a specific height */
+         min-height: 100vh;
+        /* Create the parallax scrolling effect */
+         background-attachment: fixed;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+    }
+     .parallax5 {
+        /* The image used */
+         background-image: url("5salt-formations.jpg");
+        /* Set a specific height */
+         min-height: 100vh;
+        /* Create the parallax scrolling effect */
+         background-attachment: fixed;
+         background-position: 40% 50%;
+         background-repeat: no-repeat;
+         background-size: cover;
+    }
+     .space {
+         height:82%;
+    }
+     h1 {
+         height:18%;
+         font-family: 'Forum', sans-serif;
+         padding:20px 20px 0px 20px;
+         font-size:55px;
+         color:#385F71;
+    }
+     .caption {
+         font-size:13px;
+         color:#B0B2B8;
+         padding:7px 25% 0px 7px;
+         font-family: 'DM Sans', sans-serif;
+    }
+     #content {
+         width:100%;
+         font-family: 'Forum', sans-serif;
+         color:#ffffff;
+         font-size:20px;
+         padding:80px 0px 0px 0px;
+    }
+     body{
+         background-color:#385F71;
+    }
+     .pullquote {
+         padding:40px 40px 40px 40px;
+         margin:10px 0px 10px 10px;
+         border-left:3px solid #F5F0F6;
+    }
+     .quotemark {
+         font-size:120px;
+         float:left;
+         line-height: 10px;
+         padding:40px 10px 0px 0px;
+         font-family:Georgia;
+    }
+     .quote {
+         color:#D7B377;
+         font-size:30px;
+    }
+     .attribution {
+         color:#D7B377;
+         font-weight:500;
+    }
 }
-
-.parallax2 {
-  /* The image used */
-  background-image: url("2shoreline.jpg");
-
-  /* Set a specific height */
-  min-height: 100vh; 
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+ @media (min-width:576px) {
+     #content {
+         width:80%;
+    }
 }
-    
-.parallax3 {
-  /* The image used */
-  background-image: url("3man-reading-newspaper.jpg");
-
-  /* Set a specific height */
-  min-height: 100vh; 
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: 20% 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
+ @media (min-width:992px) {
+     #content {
+         width:50%;
+    }
 }
-    
-.parallax4 {
-  /* The image used */
-  background-image: url("4people-on-beach.jpg");
-
-  /* Set a specific height */
-  min-height: 100vh; 
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-    
-.parallax5 {
-  /* The image used */
-  background-image: url("5salt-formations.jpg");
-
-  /* Set a specific height */
-  min-height: 100vh; 
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: 40% 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-    
-.space {
-        height:82%;
-    }
-
-h1 {
-    height:18%;
-    font-family: 'Forum', sans-serif;
-    padding:20px 20px 0px 20px;
-    font-size:55px;
-    color:#385F71;
-    }
-    
-.caption {
-    font-size:13px;
-    color:#B0B2B8;
-    padding:7px 25% 0px 7px;
-    font-family: 'DM Sans', sans-serif;
-
-    }
-    
-#content {
-    width:100%;
-    font-family: 'Forum', sans-serif;
-    color:#ffffff;
-    font-size:20px;
-    padding:80px 0px 0px 0px;
-    }
-    
-body{
-    background-color:#385F71;
-    }
-
-.pullquote {
-    padding:40px 40px 40px 40px;
-    margin:10px 0px 10px 10px;
-    border-left:3px solid #F5F0F6;
-    }
-    
-.quotemark {
-    font-size:120px;
-    float:left;
-    line-height: 10px;
-    padding:40px 10px 0px 0px;
-    font-family:Georgia;
-    }
-
-.quote {
-    color:#D7B377;
-    font-size:30px;
-    }
-
-.attribution {
-    color:#D7B377;
-    font-weight:500;
-    }
-
-}
-
-
-
-@media (min-width:576px) {
-    
-#content {
-    width:80%;
-    }
-    
-    
-}
-
-
-
-@media (min-width:992px) {
-    
-#content {
-    width:50%;
-    }
-    
-}
-
-
-
-@media (min-width:1200px) {
-    
+ @media (min-width:1200px) {
 }
