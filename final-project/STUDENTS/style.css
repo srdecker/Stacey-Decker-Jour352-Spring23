@@ -1,0 +1,161 @@
+#topper {
+    background-image:url(shay%20photo%20Small.png);
+    padding: 0px 0px 10px 0px;
+    background-size: cover;
+    background-position: center;
+        }
+
+#content {
+    width: 80%;
+}
+
+#byline {
+    color: #FF0F31;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    padding: 10px 0px 30px 10px;
+}
+
+h1 {
+    padding-top: 300px;
+    padding-left: 30px;
+    font-family: Roboto, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+p {
+    font-family: Merriweather, serif;
+    padding: 5px 0px 5px 0px;
+}
+
+h2 {
+    font-family: Roboto, sans-serif;
+    font-size: 25px;
+    padding-left: 30px;
+    font-weight: bold;
+ 
+}
+
+h3 {
+    font-family: Merriweather, serif;
+    font-size: 40px;
+    font-weight: bold;
+    }
+
+h4 { 
+  font-family: Merriweather, serif;
+    text-align: center;
+    font-size: 35px;
+    color: #FF0F31;
+    font-weight: bold;
+    border:3px solid #FF0F31;
+    padding: 10px 10px 10px 15px;
+
+}
+
+h5 { 
+    font-family: Merriweather, serif;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 20px 0px 0px 0px;
+}
+
+#footer {
+    font-size:8px;
+    padding: 0px 0px 5px 30px;
+    color: #333333;
+    font-family: Roboto, sans-serif;
+    color: gray;
+}
+
+video {
+    width: 100% ;
+}
+
+p1 {
+    font-size: 12px;
+    font-family: Roboto, sans-serif;
+    padding: 0px 0px 100px 0px;
+    color: gray;
+}
+
+h6 {font-family: Roboto, sans-serif;
+    font-size: 12px;
+    padding: 0px 0px 30px 30px;
+    color: gray;
+}
+
+@media (min-width: 576px) {
+h5 { 
+    font-family: Merriweather, serif;
+    font-weight: bold;
+    font-size: 35px;
+    padding: 40px 0px 0px 0px;
+}
+    
+h1 {
+    padding-top: 500px;
+    padding-left: 30px;
+    font-family: Roboto, sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+}  
+
+h2 {
+    font-family: Roboto, sans-serif;
+    font-size: 45px;
+    padding-left: 30px;
+    font-weight: bold;
+ 
+}
+}
+@media (min-width: 992px) {
+h5 { 
+    font-family: Merriweather, serif;
+    font-weight: bold;
+    font-size: 35px;
+    padding: 40px 0px 0px 0px;
+}
+    
+h1 {
+    padding-top: 500px;
+    padding-left: 30px;
+    font-family: Roboto, sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+}
+    
+h2 {
+    font-family: Roboto, sans-serif;
+    font-size: 40px;
+    padding-left: 30px;
+    font-weight: bold;
+ 
+}
+}
+
+@media (min-width: 1200px) {
+h5 { 
+    font-family: Merriweather, serif;
+    font-weight: bold;
+    font-size: 35px;
+    padding: 40px 0px 0px 0px;
+}
+    
+h1 {
+    padding-top: 800px;
+    padding-left: 30px;
+    font-family: Roboto, sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+}
+    
+h2 {
+    font-family: Roboto, sans-serif;
+    font-size: 50px;
+    padding-left: 30px;
+    font-weight: bold;
+ 
+}
+}

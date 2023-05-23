@@ -8,7 +8,7 @@
         /* Set a specific height */
          min-height: 100vh;
         /* Create the parallax scrolling effect */
-         background-attachment: fixed;
+         background-attachment: scroll;
          background-position: center;
          background-repeat: no-repeat;
          background-size: cover;
@@ -19,7 +19,7 @@
         /* Set a specific height */
          min-height: 100vh;
         /* Create the parallax scrolling effect */
-         background-attachment: fixed;
+         background-attachment: scroll;
          background-position: center;
          background-repeat: no-repeat;
          background-size: cover;
@@ -30,7 +30,7 @@
         /* Set a specific height */
          min-height: 100vh;
         /* Create the parallax scrolling effect */
-         background-attachment: fixed;
+         background-attachment: scroll;
          background-position: 20% 50%;
          background-repeat: no-repeat;
          background-size: cover;
@@ -41,7 +41,7 @@
         /* Set a specific height */
          min-height: 100vh;
         /* Create the parallax scrolling effect */
-         background-attachment: fixed;
+         background-attachment: scroll;
          background-position: center;
          background-repeat: no-repeat;
          background-size: cover;
@@ -52,7 +52,7 @@
         /* Set a specific height */
          min-height: 100vh;
         /* Create the parallax scrolling effect */
-         background-attachment: fixed;
+         background-attachment: scroll;
          background-position: 40% 50%;
          background-repeat: no-repeat;
          background-size: cover;
@@ -74,7 +74,7 @@
          font-family: 'DM Sans', sans-serif;
     }
      #content {
-         width:100%;
+         width:80%;
          font-family: 'Forum', sans-serif;
          color:#ffffff;
          font-size:20px;
@@ -104,14 +104,28 @@
          font-weight:500;
     }
 }
+
  @media (min-width:576px) {
-     #content {
-         width:80%;
-    }
 }
+
  @media (min-width:992px) {
      #content {
          width:50%;
+    }
+     .parallax {
+       background-attachment: fixed;
+    }
+     .parallax2 {
+       background-attachment: fixed;
+    }
+     .parallax3 {
+       background-attachment: fixed;
+    }
+     .parallax4 {
+       background-attachment: fixed;
+    }
+     .parallax5 {
+       background-attachment: fixed;
     }
 }
  @media (min-width:1200px) {
